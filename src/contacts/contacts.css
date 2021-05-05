@@ -1,0 +1,49 @@
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    width: 70%;
+}
+
+.item-container {
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+.item-name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.item-rating-container {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 5px;
+}
+
+.item-rating {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.star {
+    margin-left: 8px;
+    margin-top: 13px;
+}
+
+.item-address {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #818181;
+    margin-top: -10px;
+}
+
+.item-time {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #818181;
+}

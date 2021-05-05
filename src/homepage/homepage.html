@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<script src="https://www.w3schools.com/lib/w3data.js"></script>
+<meta http-equiv="Content-Type" content="text/htm" charset="UTF-8">
+
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <script src="../scripts/auth.script.js"></script>
+</head>
+
+<STYLE>A {text-decoration: none;} </STYLE>
+
+    <body onload="ButtonText()">
+    <div  class="container">
+        <header class="header">
+            <table>
+                <tr>
+                    <img class="logo" src="../assets/pizza-logo-design-template_15146-192.jpg">
+                </tr>
+                <tr>
+                    <div>
+                        <h6 class="logo-title">Fast pizza</h6>
+                        <p class="logo-description">Доставка пиццы в Минске</p>
+                    </div>
+                </tr>
+                <tr>
+                    <div class="order-info">
+                        <p>Номера для заказа:</p>
+                        <p class="tel-item">+3725*******</p>
+                        <p class="tel-item">+3725*******</p>
+                        <p class="tel-item" >+3725*******</p>
+                    </div>
+                </tr>
+                <tr>
+                    <div style="display: grid">
+                        <button onclick="AuthFunc()" class="login-button">
+                            <p id="login-button" class="login-text"></p>
+                        </button>
+                        <button class="basket-button">
+                            <p class="basket-text">Корзина</p>
+                        </button>
+                    </div>
+                </tr>
+            </table>
+        </header>
+        <div class="navigation">
+            <a href="homepage.html" class="nav-info">Меню</a>
+            <a href="../contacts/contacts.html" class="nav-info">Контакты</a>
+            <a href="../about/about-us.html" class="nav-info">О нас</a>
+        </div>
+        <div>
+            <img  alt="Специальные предложения" style="width: 85%; height: 300px; margin-left: 75px; border-radius: 50px; margin-top: 20px" src="../assets/g_1612148658_c41f066174ff4a799d3b329a69c954ff.jpeg">
+        </div>
+        <h5 style="font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            margin-left: 80px;
+            font-size: 28px;
+            "
+        >
+            Пицца
+        </h5>
+            <div class="menu">
+                    <div class="pizza-card" style="margin-left: 80px">
+                        <img src="../assets/670a919c09de4b1c881ce2dcab0e9dc8_292x292.jpeg">
+                        <p class="pizza-title">Ветчина и грибы</p>
+                        <p class="pizza-description">Томатный соус, моцарелла, ветчина, шампиньоны</p>
+                        <div style="margin-left: 10px">
+                            <p class="pizza-cost">от 5,90 руб.</p>
+                            <button class="buy-button">
+                                <p class="buy-text">Выбрать</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="pizza-card" style="margin-left: 80px">
+                        <img src="../assets/866ad755-132d-485a-9dc5-db93127fcb64.jpg">
+                        <p class="pizza-title"> Четыре сезона</p>
+                        <p class="pizza-description">Итальянские травы, томатный соус, томаты ...</p>
+                        <div style="margin-left: 10px">
+                            <p class="pizza-cost">от 14,90 руб.</p>
+                            <button class="buy-button">
+                                <p class="buy-text">Выбрать</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="pizza-card" style="margin-left: 80px">
+                        <img src="../assets/fe7b9548-d940-4967-9361-c57158f31e02.jpg">
+                        <p class="pizza-title">Пепперони</p>
+                        <p class="pizza-description">Томатный соус, пикантная пепперони, моцарелла</p>
+                        <div style="margin-left: 10px">
+                            <p class="pizza-cost">от 9,90 руб.</p>
+                            <button class="buy-button">
+                                <p class="buy-text">Выбрать</p>
+                            </button>
+                        </div>
+                    </div>
+                <div class="pizza-card" style="margin-left: 80px">
+                    <img src="../assets/670a919c09de4b1c881ce2dcab0e9dc8_292x292.jpeg">
+                    <p class="pizza-title">Ветчина и грибы</p>
+                    <p class="pizza-description">Томатный соус, моцарелла, ветчина, шампиньоны</p>
+                    <div style="margin-left: 10px">
+                        <p class="pizza-cost">от 5,90 руб.</p>
+                        <button class="buy-button">
+                            <p class="buy-text">Выбрать</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="pizza-card" style="margin-left: 80px">
+                    <img src="../assets/866ad755-132d-485a-9dc5-db93127fcb64.jpg">
+                    <p class="pizza-title"> Четыре сезона</p>
+                    <p class="pizza-description">Итальянские травы, томатный соус, томаты ...</p>
+                    <div style="margin-left: 10px">
+                        <p class="pizza-cost">от 14,90 руб.</p>
+                        <button class="buy-button">
+                            <p class="buy-text">Выбрать</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="pizza-card" style="margin-left: 80px">
+                    <img src="../assets/fe7b9548-d940-4967-9361-c57158f31e02.jpg">
+                    <p class="pizza-title">Пепперони</p>
+                    <p class="pizza-description">Томатный соус, пикантная пепперони, моцарелла</p>
+                    <div style="margin-left: 10px">
+                        <p class="pizza-cost">от 9,90 руб.</p>
+                        <button class="buy-button">
+                            <p class="buy-text">Выбрать</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="pizza-card" style="margin-left: 80px">
+                    <img src="../assets/670a919c09de4b1c881ce2dcab0e9dc8_292x292.jpeg">
+                    <p class="pizza-title">Ветчина и грибы</p>
+                    <p class="pizza-description">Томатный соус, моцарелла, ветчина, шампиньоны</p>
+                    <div style="margin-left: 10px">
+                        <p class="pizza-cost">от 5,90 руб.</p>
+                        <button class="buy-button">
+                            <p class="buy-text">Выбрать</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="pizza-card" style="margin-left: 80px">
+                    <img src="../assets/866ad755-132d-485a-9dc5-db93127fcb64.jpg">
+                    <p class="pizza-title"> Четыре сезона</p>
+                    <p class="pizza-description">Итальянские травы, томатный соус, томаты ...</p>
+                    <div style="margin-left: 10px">
+                        <p class="pizza-cost">от 14,90 руб.</p>
+                        <button class="buy-button">
+                            <p class="buy-text">Выбрать</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="pizza-card" style="margin-left: 80px">
+                    <img src="../assets/fe7b9548-d940-4967-9361-c57158f31e02.jpg">
+                    <p class="pizza-title">Пепперони</p>
+                    <p class="pizza-description">Томатный соус, пикантная пепперони, моцарелла</p>
+                    <div style="margin-left: 10px">
+                        <p class="pizza-cost">от 9,90 руб.</p>
+                        <button class="buy-button">
+                            <p class="buy-text">Выбрать</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-nav">
+            <div>
+                <a class="footer-nav-item" href="homepage.html">Меню</a>
+            </div>
+            <div style="margin-top: 10px">
+                <a class="footer-nav-item" href="../contacts/contacts.html">Контакты</a>
+            </div>
+            <div style="margin-top: 10px">
+                <a class="footer-nav-item" href="../about/about-us.html">О нас</a>
+            </div>
+        </div>
+        <div style="margin-left: 67%">
+            <img src="../assets/Screen%20Shot%202021-03-21%20at%205.06.15%20PM.png">
+            <img src="../assets/Screen%20Shot%202021-03-21%20at%205.06.27%20PM.png">
+        </div>
+    </footer>
+    </body>
+</html>

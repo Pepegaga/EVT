@@ -1,0 +1,96 @@
+.container {
+}
+
+.login-input {
+    width: 500px;
+    height: 50px;
+    border-color: #FF7B00;
+    border-width: 3px;
+    border-radius: 20px;
+    font-size: 18px;
+    padding-left: 30px;
+    outline: none;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 42%;
+}
+
+
+
+.logo {
+    height: 250px;
+    width: 250px;
+    margin-left: 43%;
+}
+
+.logo-title {
+    font-size: 36px;
+    color: #FF7B00;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin-top: -30px;
+    margin-left: 45%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #FFE6CF;
+    text-align: center;
+}
+.box h1{
+    color: #FF7B00;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.container input[type = "text"],.box input[type = "password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #B95900;
+    padding: 14px 10px;
+    width: 300px;
+    outline: none;
+    color: #FF7B00;
+    border-radius: 24px;
+    transition: 0.25s;
+    font-size: 18px;
+}
+.container input[type = "text"]:focus,.box input[type = "password"]:focus{
+    width: 380px;
+    border-color: #FF7B00;
+}
+.container button{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #FF7B00;
+    padding: 14px 40px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    color: #FF7B00;
+    font-size: 14px;
+}
+.container button:hover{
+    background: #FF7B00;
+    color: white;
+}
