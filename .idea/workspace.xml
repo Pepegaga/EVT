@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcb84c5c-c94b-4149-9622-ce7cfbc735d3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/first part/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/first part/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/first part/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/folder/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/first part/folder/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/first part/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/first part/second-page.html" afterDir="false" />
-    </list>
+    <list default="true" id="dcb84c5c-c94b-4149-9622-ce7cfbc735d3" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +23,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/first part" />
     </key>
@@ -45,6 +41,7 @@
       <workItem from="1612201363903" duration="386000" />
       <workItem from="1612201867388" duration="1941000" />
       <workItem from="1620235111781" duration="212000" />
+      <workItem from="1620235359395" duration="144000" />
     </task>
     <servers />
   </component>
@@ -61,5 +58,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
